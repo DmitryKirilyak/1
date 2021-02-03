@@ -1,0 +1,360 @@
+body {
+    background-color: #DAE3E7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px 0;
+   background: #f5f5f5;
+   border-top: 10px solid #778492;
+   height: 220px;    
+}
+
+/* *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+.a {
+    margin-left: 20px;
+    line-height: .6;
+    font-family: 'Montserrat', sans-serif;
+}
+.name {
+    color: #49515A;
+    font-size: 46px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+.desc {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h2, h3, h4, h5, h6{
+    color: #778492;
+}
+
+.icon {
+   display: flex;
+   flex-direction: row; 
+   list-style: none;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-left: 25px;   
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.telega {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.Contact-Me {
+    display: flex;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #54BA4E;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-right: 140px;
+    margin-top: 80px;
+}
+ 
+.c, .pr, .oz1, .work, .mg {
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin-top: 50px;
+   margin-left: 70px;
+   width: 800px;
+   background-color: white;
+ }
+
+ .im{
+    background-color: white;
+    margin-bottom: 30px;
+    /* margin-left: 70px; */
+    width: 800px;
+
+ }
+
+ .info-me {
+    display: block;
+    font-size: 1.5em; 
+    font-weight: bold;
+    margin-left: 40px;
+ }
+
+ h2, p{
+    margin-left: 40px;
+ }
+
+.h2{
+    color: #545E69;
+}
+ p {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #434343;
+ }
+
+ .pr {
+    background-color: white;
+ }
+ .primg {
+     width: 700px;
+     height: 300px;
+     padding-left: 40px;
+ }
+
+ .kv{
+     text-align: center;
+ }
+ 
+ .backmp {
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin-left: 290px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #479FC8;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 100px;
+    
+ }
+ 
+ /* параграфы  с картинками */
+ .atom, .Dev, .tempo, .delta {
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    height: 170px;
+    margin-bottom: 30px;
+ }
+ 
+ /* Заголовки */
+ .atomzag, .dev1, .tempo2, .delta2, .ptcl1, .ptcel1, .ptmo1, .cf, .se, .see {
+    margin-left: 40px;
+ }
+
+ /*  Other Projects */
+ /* .ptcl, .ptcel, .ptmo {
+     padding-top: 5px;
+ }
+  */
+.Other-Projects{
+    background-color: white;
+}
+.op{
+    background-color:#54BA4E ;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    color: white;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+.vog, .vog, .fom {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #3AAA64;
+}
+
+.cf1 {
+    text-decoration: none;
+    color: #999999;
+    font-weight:lighter;
+}
+
+.moc {
+    background-color:#479FC8 ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.arrow {
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+/* work experience */
+
+.work {
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+
+/* my githab   */
+
+.mg {
+    background-color: white;
+    padding-top: 30px;
+    margin-top: px;
+}
+
+.gh1 {
+    color: green;
+}
+
+.l {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lp2 {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* rightpanel */
+
+.rightPanel {
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.sf3 {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(1, 138, 1);
+    margin-top: 15px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.sk {
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.tt {
+    padding-top: 30px;
+}
+
+.ed {
+    padding-top: 30px;
+}
+
+.ed2 {
+    margin-left: 40px;
+}
+
+.lang {
+    padding-top: 30px;
+}
+
+.lb {
+    padding-top: 30px;
+}
+
+.lb4 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.fv {
+    padding-top: 30px;
+}
+
+.conf {
+    padding-top: 30px;
+}
+
+.cred {
+    padding-top: 30px;
+}
+
+.cr1 {
+    line-height: 30px;
+}
+.s{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #778492;
+    margin-top: 30px;
+    line-height: 5px;
+}
+
+.be {
+    text-decoration: none;
+    color:  #778492 ;
+}
+
+.xr {
+    text-decoration: none;
+    color: #54BA4E; 
+}
+ .cca  {
+    text-decoration: none;
+    color: #778492;
+ }
+
+.fu1 {
+    border: none;
+    border-radius: 5px;
+    padding: 8px; 
+    margin-left: 40px; 
+    color: white;
+    background:#479FC8;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.iwtd {
+    border: none;
+    border-radius: 5px;
+    padding: 8px; 
+    margin-left: 40px; 
+    color: white;
+    background:#54BA4E;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.d {
+    padding-top: 30px;
+}
+.fv2 {
+    margin-left: 40px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #778492;
+
+}
